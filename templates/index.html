@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ML heating prediction</title>
+</head>
+
+<center>
+            <br>        <br>
+    <h1>Fault Detection Test Board</h1>
+  <img src="{{ href }}" height=600 />
+{#  <img src="static/x.svg" height=600 />#}
+  <form method="POST">
+      <br>      <br>
+      <label>Input list of temperature values: </label>
+{#      <p>Use comma-separated list</p>#}
+      <input name="text1">
+        <br>        <br>
+      <label>Input list of heating load values: </label>
+{#      <p>Use comma-separated list</p>#}
+      <input name="text2">
+        <br>        <br>
+      <input type="submit">
+  </form>
+
+
+<h4>Here is your results:</h4>
+    <p>  {{ prediction_text }}    </p>
+           <p>  {{ prediction_text2 }}
+    </p>
+</center>
+<body>
+
+</body>
+</html>
